@@ -36,10 +36,12 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={brainwave} width={190} height={40} alt="Brainwave" />
+        <a className="flex items-center space-x-2 lg:space-x-4" href="#hero">
+          <img src={"./src/assets/Osco ProfilePic.png"} width={60} height={60} alt="Oscar San" />
         </a>
-
+        <div className="hidden lg:block font-code text-2xl text-n-1">
+          |&nbsp; &nbsp;&nbsp;
+        </div>
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
@@ -67,14 +69,8 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New account
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        <Button className="hidden lg:flex" href="mailto:oscarsani007@gmail.com">
+          Contact Me
         </Button>
 
         <Button
