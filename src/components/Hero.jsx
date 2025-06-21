@@ -8,7 +8,7 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
-
+import Dice_Quest_Recording from "../assets/Dice_Quest_Recording.mp4";
 const Hero = () => {
   const parallaxRef = useRef(null);
 
@@ -38,62 +38,59 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Building passion into projects - every step of the way.
           </p>
-          <Button href="/About Me" white>
+          {/* <Button href="/About Me" white>
             About Me
-          </Button>
-        </div>
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
-            <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
+          </Button> */}
+          <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+            <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
+              <div className="relative bg-n-8 rounded-[1rem]">
+                <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
+                <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[1024/490] lg:aspect-[1920/1080]">
+                {/* Video Section */}
+                  <div className="relative z-[5]">
+                    <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+                      <source src={Dice_Quest_Recording} type="video/mp4" />
+                    </video>
+                  </div>
+                  {/* <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" /> */}
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                <img
-                  src={robot}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
-                  width={1024}
-                  height={490}
-                  alt="AI"
-                />
+                  {/* <ScrollParallax isAbsolutelyPositioned>
+                    <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
+                      {heroIcons.map((icon, index) => (
+                        <li className="p-5" key={index}>
+                          <img src={icon} width={24} height={25} alt={icon} />
+                        </li>
+                      ))}
+                    </ul>
+                  </ScrollParallax>
 
-                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
-
-                <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                    {heroIcons.map((icon, index) => (
-                      <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
-                      </li>
-                    ))}
-                  </ul>
-                </ScrollParallax>
-
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
-                  />
-                </ScrollParallax>
+                  <ScrollParallax isAbsolutelyPositioned>
+                    <Notification
+                      className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
+                      title="Code generation"
+                    />
+                  </ScrollParallax> */}
+                </div>
               </div>
+
+              <Gradient />
             </div>
 
-            <Gradient />
+            <BackgroundCircles />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
-              src={heroBackground}
-              className="w-full"
-              width={1440}
-              height={1800}
-              alt="hero"
-            />
-          </div>
-
-          <BackgroundCircles />
         </div>
-
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
+      {/* Background gradient*/}
+      <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]"
+                  style={{
+          width: '100%',
+          height: '100%',
+          background: 'radial-gradient(circle at center, rgba(255, 0, 128, 0.8), rgba(0, 0, 128, 0.8), #000)',
+          filter: 'blur(240px)',
+        }}>
+      </div>
+        {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
+
 
       <BottomLine />
     </Section>
