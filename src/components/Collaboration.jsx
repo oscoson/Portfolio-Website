@@ -33,6 +33,7 @@ const Collaboration = () => {
         { name: "Jest", icon: "/icons/nodejs.svg" },
         { name: "Node.js", icon: "/icons/express.svg" },
         { name: "NextJS", icon: "/icons/tailwindcss.svg" },
+        { name: "Tailwind", icon: "/icons/tailwindcss.svg"},
         { name: "Bootstrap", icon: "/icons/tailwindcss.svg" },
       ],
       gradient: "from-blue-400 via-cyan-400 to-green-400",

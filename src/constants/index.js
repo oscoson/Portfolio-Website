@@ -109,22 +109,22 @@ export const roadmap = [
     status: "progress",
     imageUrl: roadmap2,
   },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
+  // {
+  //   id: "2",
+  //   title: "Chatbot customization",
+  //   text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+  //   date: "May 2023",
+  //   status: "done",
+  //   imageUrl: roadmap3,
+  // },
+  // {
+  //   id: "3",
+  //   title: "Integration with APIs",
+  //   text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+  //   date: "May 2023",
+  //   status: "progress",
+  //   imageUrl: roadmap4,
+  // },
 ];
 
 export const collabText =
