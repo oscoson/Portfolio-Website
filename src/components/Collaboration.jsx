@@ -93,7 +93,7 @@ const Collaboration = () => {
               {row.map((panel, idx) => (
                 <div
                   key={panel.title}
-                  className={`rounded-2xl p-6 shadow-lg relative transition-transform duration-300 hover:scale-105`}
+                  className={`rounded-2xl p-6 shadow-lg relative transition-transform duration-300 hover:scale-105 ease-in-out`}
                   style={{
                     zIndex: 10 - (rowIdx * 2 + idx),
                     width: "32.5%",

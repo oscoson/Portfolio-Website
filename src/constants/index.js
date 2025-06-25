@@ -34,7 +34,10 @@ import {
   telegram,
   twitter,
   yourlogo,
+  DRDC,
+  QGDC,
 } from "../assets";
+
 
 export const navigation = [
   {
@@ -91,23 +94,24 @@ export const brainwaveServicesIcons = [
   sliders04,
 ];
 
-export const roadmap = [
+export const experience = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Software Development Intern @ DRDC",
+    text: "Contributed to various research projects involving LLMs, virtual machines, and simulated cyberattack games. Collaborated as a co-author on a published research paper studying the systematic evaluation of LLMs for cyber operation automation.",
+    date: "May 2023 - August 2024",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: DRDC,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
+    title: "Co-Chair, Community Outreach @ QGDC",
+    text: "Managed a community 150+ student game developers. Directed game jams and social events to generate growth and engage game developers. Organized tutorial sessions to teach students about the Unity game engine and C# programming language.",
+    date: "June 2022 - August 2023",
+    status: "done",
+    imageUrl: QGDC,
+    colorful: true,
   },
   // {
   //   id: "2",
