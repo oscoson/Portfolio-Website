@@ -7,11 +7,11 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="aboutme">
       <div className="container relative z-2">
         <Heading
           className=" font-bold md:max-w-md lg:max-w-2xl"
-          title="Background"
+          title="About Me"
         />
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (

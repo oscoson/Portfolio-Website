@@ -79,7 +79,7 @@ const Collaboration = () => {
     arr.reduce((acc, _, i) => (i % size ? acc : [...acc, arr.slice(i, i + size)]), []);
 
   return (
-    <Section crosses>
+    <Section crosses id="skills">
       <div className="mt-[-80px]">
         <h2 className="text-3xl font-bold text-center text-white mb-10 drop-shadow">
           Skills
