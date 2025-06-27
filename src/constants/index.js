@@ -3,7 +3,7 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
+  gradImage,
   chromecast,
   disc02,
   discord,
@@ -36,6 +36,8 @@ import {
   yourlogo,
   DRDC,
   QGDC,
+  MetaQuestGaming,
+  WorkLife,
 } from "../assets";
 
 
@@ -101,6 +103,7 @@ export const experience = [
     text: "Contributed to various research projects involving LLMs, virtual machines, and simulated cyberattack games. Collaborated as a co-author on a published research paper studying the systematic evaluation of LLMs for cyber operation automation.",
     date: "May 2023 - August 2024",
     status: "done",
+    link: "https://www.canada.ca/en/defence-research-development.html",
     imageUrl: DRDC,
     colorful: true,
   },
@@ -110,6 +113,7 @@ export const experience = [
     text: "Managed a community 150+ student game developers. Directed game jams and social events to generate growth and engage game developers. Organized tutorial sessions to teach students about the Unity game engine and C# programming language.",
     date: "June 2022 - August 2023",
     status: "done",
+    link: "https://www.qgdc.ca/",
     imageUrl: QGDC,
     colorful: true,
   },
@@ -153,21 +157,21 @@ export const collabContent = [
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
+    title: "itch",
     icon: figma,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
+    title: "github",
     icon: notion,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
+    title: "linkedIn",
     icon: discord,
     width: 36,
     height: 28,
@@ -252,7 +256,8 @@ export const benefits = [
     text: "I graduated with an Honours Bachelor's degree in Computer Science from Queen's University, where I honed my skills in software and game development.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: gradImage,
+    light: true,
   },
   {
     id: "1",
@@ -260,7 +265,7 @@ export const benefits = [
     text: "Inspired by the craft of bringing virtual interactivity to life, I've delved into game jams and team projects to program engaging gameplay experiences.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: MetaQuestGaming,
     light: true,
   },
   {
@@ -269,7 +274,8 @@ export const benefits = [
     text: "I have experience in developing software in agile environments, having worked as an intern in National Defence and built numerous projects with different teams.  ",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: WorkLife,
+    light: true,
   },
   // {
   //   id: "3",
@@ -277,7 +283,7 @@ export const benefits = [
   //   text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
   //   backgroundUrl: "./src/assets/benefits/card-4.svg",
   //   iconUrl: benefitIcon4,
-  //   imageUrl: benefitImage2,
+  //   imageUrl: gradImage,
   //   light: true,
   // },
   // {
@@ -286,7 +292,7 @@ export const benefits = [
   //   text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
   //   backgroundUrl: "./src/assets/benefits/card-5.svg",
   //   iconUrl: benefitIcon1,
-  //   imageUrl: benefitImage2,
+  //   imageUrl: gradImage,
   // },
   // {
   //   id: "5",
@@ -294,7 +300,7 @@ export const benefits = [
   //   text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
   //   backgroundUrl: "./src/assets/benefits/card-6.svg",
   //   iconUrl: benefitIcon2,
-  //   imageUrl: benefitImage2,
+  //   imageUrl: gradImage,
   // },
 ];
 

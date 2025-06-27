@@ -10,65 +10,65 @@ const Collaboration = () => {
     {
       title: "Languages",
       items: [
-        { name: "C#", icon: "/icons/javascript.svg" },
-        { name: "C++", icon: "/icons/typescript.svg" },
-        { name: "C", icon: "/icons/python.svg" },
-        { name: "Python", icon: "/icons/cpp.svg" },
-        { name: "JavaScript", icon: "/icons/java.svg" },
-        { name: "Java", icon: "/icons/java.svg" },
-        { name: "HTML", icon: "/icons/java.svg" },
-        { name: "CSS", icon: "/icons/java.svg" },
-        { name: "YAML", icon: "/icons/java.svg" },
+        { name: "C#", icon: "src/assets/icons/c-sharp.svg" },
+        { name: "C++", icon: "src/assets/icons/icons8-c++.svg" },
+        { name: "C", icon: "src/assets/icons/icons8-c-programming.svg" },
+        { name: "Python", icon: "src/assets/icons/icons8-python.svg" },
+        { name: "JavaScript", icon: "src/assets/icons/icons8-javascript.svg" },
+        { name: "Java", icon:  "src/assets/icons/icons8-java.svg"},
+        { name: "HTML", icon: "src/assets/icons/icons8-html.svg" },
+        { name: "CSS", icon: "src/assets/icons/icons8-css.svg" },
+        { name: "YAML", icon: "src/assets/icons/Official_YAML_Logo.svg" },
       ],
-      gradient: "from-yellow-400 via-orange-400 to-pink-400",
-      linear: "linear-gradient(90deg, #facc15 0%, #fb7185 100%)",
+      gradient: "from-yellow-700 via-orange-700 to-pink-700",
+      linear: "linear-gradient(270deg, #be995c, #fe995c, #be555e,  #be185d)",
     },
     {
       title: "Frameworks/Libraries",
       items: [
-        { name: "Unity", icon: "/icons/react.svg" },
-        { name: "Unreal", icon: "/icons/react.svg" },
-        { name: "Pandas", icon: "/icons/react.svg" },
-        { name: "Cypress", icon: "/icons/nextjs.svg" },
-        { name: "Jest", icon: "/icons/nodejs.svg" },
-        { name: "Node.js", icon: "/icons/express.svg" },
-        { name: "NextJS", icon: "/icons/tailwindcss.svg" },
-        { name: "Tailwind", icon: "/icons/tailwindcss.svg"},
-        { name: "Bootstrap", icon: "/icons/tailwindcss.svg" },
+        { name: "Unity", icon: "src/assets/icons/icons8-unity.svg" },
+        { name: "Unreal", icon: "src/assets/icons/icons8-unreal-engine.svg" },
+        { name: "Pandas", icon: "src/assets/icons/icons8-pandas.svg" },
+        { name: "Cypress", icon: "src/assets/icons/cypress-1.svg" },
+        { name: "Jest", icon: "src/assets/icons/Jest.svg" },
+        { name: "Node.js", icon: "src/assets/icons/Node.js.svg" },
+        { name: "NextJS", icon: "src/assets/icons/Next.js.svg" },
+        { name: "Tailwind", icon: "src/assets/icons/Tailwind CSS.svg"},
+        { name: "Bootstrap", icon: "src/assets/icons/icons8-bootstrap.svg" },
       ],
-      gradient: "from-blue-400 via-cyan-400 to-green-400",
-      linear: "linear-gradient(90deg, #60a5fa 0%, #34d399 100%)",
+      gradient: "from-blue-700 via-cyan-700 to-green-700",
+      linear: "linear-gradient(270deg, #1d4ed8, #059669, #1d4ed8, #059669)",
     },
     {
       title: "Developer Tools",
       items: [
-        { name: "Git", icon: "/icons/vscode.svg" },
-        { name: "GitHub", icon: "/icons/github.svg" },
-        { name: "VS Code", icon: "/icons/npm.svg" },
-        { name: "Visual Studio", icon: "/icons/webpack.svg" },
-        { name: "Eclipse", icon: "/icons/vscode.svg" },
-        { name: "IntelliJ", icon: "/icons/git.svg" },
-        { name: "Jupyter Notebook", icon: "/icons/github.svg" },
-        { name: "Jira", icon: "/icons/npm.svg" },
-        { name: "Confluence", icon: "/icons/webpack.svg" },
-        { name: "Figma", icon: "/icons/webpack.svg" },
+        { name: "Git", icon: "src/assets/icons/Git.svg" },
+        { name: "GitHub", icon: "src/assets/icons/GitHub.svg" },
+        { name: "VS Code", icon: "src/assets/icons/Visual Studio Code (VS Code).svg" },
+        { name: "Visual Studio", icon: "src/assets/icons/Visual Studio.svg" },
+        { name: "Eclipse", icon: "src/assets/icons/Eclipse IDE.svg" },
+        { name: "IntelliJ", icon: "src/assets/icons/IntelliJ IDEA.svg" },
+        { name: "Jupyter Notebook", icon: "src/assets/icons/Jupyter.svg" },
+        { name: "Jira", icon: "src/assets/icons/Jira.svg" },
+        { name: "Confluence", icon: "src/assets/icons/Confluence.svg" },
+        { name: "Figma", icon: "src/assets/icons/Figma.svg" },
       ],
-      gradient: "from-purple-400 via-indigo-400 to-blue-400",
-      linear: "linear-gradient(90deg, #a78bfa 0%, #60a5fa 100%)",
+      gradient: "from-purple-700 via-indigo-700 to-blue-700",
+      linear: "linear-gradient(270deg, #6d28d9, #1d4ed8, #6d28d9, #1d4ed8)",
     },
     {
       title: "Technologies",
       items: [
-        { name: "Windows", icon: "/icons/docker.svg" },
-        { name: "MacOS", icon: "/icons/mongodb.svg" },
-        { name: "Linux", icon: "/icons/firebase.svg" },
-        { name: "Meta Horizon OS", icon: "/icons/aws.svg" },
-        { name: "VMWare Workstation", icon: "/icons/linux.svg" },
-        { name: "OpenAI", icon: "/icons/docker.svg" },
-        { name: "Llama", icon: "/icons/mongodb.svg" },
+        { name: "Windows", icon: "src/assets/icons/Windows 11.svg" },
+        { name: "MacOS", icon: "src/assets/icons/MacOS_logo.svg" },
+        { name: "Linux", icon: "src/assets/icons/Linux.svg" },
+        { name: "Meta Horizon OS", icon: "src/assets/icons/meta-color.svg" },
+        { name: "VMWare Workstation", icon: "src/assets/icons/Vmware_workstation_16_icon.svg" },
+        { name: "OpenAI", icon: "src/assets/icons/icons8-chatgpt.svg" },
+        { name: "Llama", icon: "src/assets/icons/meta-text.svg" },
       ],
-      gradient: "from-green-400 via-lime-400 to-yellow-400",
-      linear: "linear-gradient(90deg, #34d399 0%, #facc15 100%)",
+      gradient: "from-green-700 via-lime-700 to-yellow-700",
+      linear: "linear-gradient(270deg, #047857, #b45309, #047857, #b45309)",
     },
   ];
 
@@ -99,8 +99,8 @@ const Collaboration = () => {
                     width: "32.5%",
                     maxWidth: "32.5%",
                     background: panel.linear,
-                    backgroundSize: "200% 200%",
-                    animation: "gradientMove 6s ease-in-out infinite",
+                    backgroundSize: "600% 600%",
+                    animation: "gradientMove 10s ease-in-out infinite",
                   }}
                 >
                   <h3 className="text-2xl text-white mb-4 drop-shadow text-center">
@@ -110,7 +110,7 @@ const Collaboration = () => {
                     {panel.items.map((item) => (
                       <div
                         key={item.name}
-                        className="group border-2 border-white/60 rounded-xl p-3 bg-white/20 backdrop-blur flex flex-col items-center transition-all duration-200 hover:border-yellow-300 hover:bg-white/40 hover:shadow-xl cursor-pointer"
+                        className="group border-2 border-white/60 rounded-xl p-3 bg-white/20 backdrop-blur flex flex-col items-center transition-all duration-200 hover:border-white hover:bg-white/5 hover:shadow-xl cursor-pointer"
                         title={item.name}
                       >
                         <img
@@ -118,7 +118,7 @@ const Collaboration = () => {
                           alt={item.name}
                           className="w-10 h-10 mb-1 transition-transform duration-200 group-hover:scale-110"
                         />
-                        <span className="text-xs text-white font-medium">{item.name}</span>
+                        <span className="text-xs text-white font-medium ">{item.name}</span>
                       </div>
                     ))}
                   </div>

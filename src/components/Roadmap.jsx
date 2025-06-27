@@ -16,6 +16,7 @@ const Roadmap = () => (
           const status = item.status === "done" ? "Done" : "In progress";
 
             return (
+            
             <div
               className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
               item.colorful ? "bg-conic-gradient" : "bg-n-6"
@@ -61,7 +62,9 @@ const Roadmap = () => (
                   </div>
                   </div>
                   {/* This handles the text within containers */}
-                  <h4 className="h4 mb-4">{item.title}</h4>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
+                    <h4 className="h4 mb-4">{item.title }</h4>
+                  </a>
                   <p className="body-2 text-n-4">{item.text}</p>
                 </div>
               </div>

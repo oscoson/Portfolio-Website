@@ -67,7 +67,7 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import gradImage from "./Grad.jpg";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -77,6 +77,8 @@ import twitter from "./socials/twitter.svg";
 
 import DRDC from "./DRDC.png";
 import QGDC from "./qgdc_logo.png";
+import MetaQuestGaming from "./MetaQuest_Demo.jpg";
+import WorkLife  from "./defcon.jpg"
 
 export {
   brainwave,
@@ -141,7 +143,7 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
+  gradImage,
   discordBlack,
   facebook,
   instagram,
@@ -149,4 +151,6 @@ export {
   twitter,
   DRDC,
   QGDC,
+  MetaQuestGaming,
+  WorkLife,
 };
