@@ -119,6 +119,14 @@ import vmware from "./icons/Vmware_workstation_16_icon.svg";
 import openai from "./icons/icons8-chatgpt.svg";
 import llama from "./icons/meta-text.svg";
 
+import arcticmania from "./projects/arcticmania.png";
+import crashKitchen from "./projects/crash_kitchen.png";
+import diceQuest from "./projects/Dice-Quest.png";
+import extremeKarim from "./projects/extreme-karim.png";
+import flightBooking from "./projects/flighting-booking-sim.png";
+import hamstar from "./projects/hamstar.png";
+import mirrorMadness from "./projects/mirrormadness.png";
+
 export {
   brainwave,
   check,
@@ -227,4 +235,11 @@ export {
   vmware,
   openai,
   llama,
+  arcticmania,
+  crashKitchen,
+  diceQuest,
+  extremeKarim,
+  flightBooking,
+  hamstar,
+  mirrorMadness,
 };

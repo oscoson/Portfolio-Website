@@ -4,12 +4,22 @@ import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
 
+import {
+  arcticmania,
+  crashKitchen,
+  diceQuest,
+  extremeKarim,
+  flightBooking,
+  hamstar,
+  mirrorMadness
+} from "../assets/index.js";
+
 const Pricing = () => {
   // Define your projects with a "buttons" property for custom buttons
   const projects = [
     {
       title: "Crash Kitchen",
-      image: "src/assets/projects/crash_kitchen.png",
+      image: crashKitchen,
       description: "University capstone project featuring multiplayer, VR and physics-based mechanics. Players must prepare meals under time pressure while driving and avoiding obstacles.",
       tools: ["3D", "Multiplayer", "Physics-based", "VR"],
       buttons: [
@@ -19,7 +29,7 @@ const Pricing = () => {
     },
     {
       title: "Flight-Booking System",
-      image: "src/assets/projects/flighting-booking-sim.png",
+      image: flightBooking,
       description: "Worked with a team of 3 to build a website simulating the booking process of flight tickets. Leveraged Cypress and Jest frameworks for quality assurance testing.",
       tools: ["JavaScript", "Cypress", "Jest", "Node.js", "NextJS"],
       buttons: [
@@ -28,7 +38,7 @@ const Pricing = () => {
     },
     {
       title: "Mirror Madness",
-      image: "src/assets/projects/mirrormadness.png",
+      image: mirrorMadness,
       description: "The most recent game jam project I participated in. Mirrors and various forms of symmetry can be utilised to create paths towards level-end goal.",
       tools: ["2D", "Puzzle", "Platformer"],
       buttons: [
@@ -38,7 +48,7 @@ const Pricing = () => {
     },
     {
       title: "Arctic Mania",
-      image: "src/assets/projects/arcticmania.png",
+      image: arcticmania,
       description: "A week long game jam project where I took leadership of a team of 8. Players control a penguin, cycling through weaponry and fending off hordes of arctic animals.",
       tools: ["2D", "Top-Down", "Shoot-em-up"],
       buttons: [
@@ -48,7 +58,7 @@ const Pricing = () => {
     },
     {
       title: "Dice Quest",
-      image: "src/assets/projects/Dice-Quest.png",
+      image: diceQuest,
       description: "A game jam project with a heavy amount of refinement poured into it after the event. Players roll a variety of dice to strategically defeat enemies and progress through levels.",
       tools: ["2D", "Turn-Based", "Adventure"],
       buttons: [
@@ -58,7 +68,7 @@ const Pricing = () => {
     },
     {
       title: "Hamstar",
-      image: "src/assets/projects/hamstar.png",
+      image: hamstar,
       description: "A gravity-themed platformer where players navigate a hamster around planets simulating gravitional pull. The crafted experience of this game jam project landed a 1st place win.",
       tools: ["2D", "Platformer", "Gravity"],
       buttons: [
@@ -68,7 +78,7 @@ const Pricing = () => {
     },
     {
       title: "Extreme Karim",
-      image: "src/assets/projects/extreme-karim.png",
+      image: extremeKarim,
       description: "Took on the role as team lead in an agile development environment to create a desmonstrative platforming game for a class studying C++ fundamentals.",
       tools: ["3D", "Platformer"],
       buttons: [
