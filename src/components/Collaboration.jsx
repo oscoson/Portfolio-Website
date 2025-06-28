@@ -3,6 +3,7 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { csharp } from "../assets/index.js"; // Importing csharp icon
 
 const Collaboration = () => {
   // Split panels into rows of two
@@ -10,7 +11,7 @@ const Collaboration = () => {
     {
       title: "Languages",
       items: [
-        { name: "C#", icon: "./icons/c-sharp.svg" },
+        { name: "C#", icon: csharp },
         { name: "C++", icon: "src/assets/icons/icons8-c++.svg" },
         { name: "C", icon: "src/assets/icons/icons8-c-programming.svg" },
         { name: "Python", icon: "src/assets/icons/icons8-python.svg" },

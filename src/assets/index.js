@@ -80,6 +80,8 @@ import QGDC from "./qgdc_logo.png";
 import MetaQuestGaming from "./MetaQuest_Demo.jpg";
 import WorkLife  from "./defcon.jpg";
 
+import csharp from "./c-sharp.svg";
+
 export {
   brainwave,
   check,
@@ -153,4 +155,5 @@ export {
   QGDC,
   MetaQuestGaming,
   WorkLife,
+  csharp
 };
