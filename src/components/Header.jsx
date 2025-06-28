@@ -7,6 +7,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import { oscarsanIcon } from "../assets/index.js";
 
 const Header = () => {
   const pathname = useLocation();
@@ -37,7 +38,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="flex items-center space-x-2 lg:space-x-4" href="#oscar">
-          <img src={"./src/assets/Osco ProfilePic.png"} width={60} height={60} alt="Oscar San" />
+          <img src={ oscarsanIcon } width={60} height={60} alt="Oscar San" />
         </a>
         <div className="hidden lg:block font-code text-2xl text-n-1">
           |&nbsp; &nbsp;&nbsp;

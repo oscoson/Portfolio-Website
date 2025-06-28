@@ -127,6 +127,8 @@ import flightBooking from "./projects/flighting-booking-sim.png";
 import hamstar from "./projects/hamstar.png";
 import mirrorMadness from "./projects/mirrormadness.png";
 
+import oscarsanIcon from "./Osco ProfilePic.png";
+
 export {
   brainwave,
   check,
@@ -242,4 +244,5 @@ export {
   flightBooking,
   hamstar,
   mirrorMadness,
+  oscarsanIcon,
 };
