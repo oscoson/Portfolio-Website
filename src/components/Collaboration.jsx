@@ -68,7 +68,7 @@ const Collaboration = () => {
         { name: "Llama", icon: "src/assets/icons/meta-text.svg" },
       ],
       gradient: "from-green-700 via-lime-700 to-yellow-700",
-      linear: "linear-gradient(270deg, #047857, #b45309, #047857, #b45309)",
+      linear: "linear-gradient(270deg, #b45309, #b45309, #047857, #047857)",
     },
   ];
 

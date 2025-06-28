@@ -5,10 +5,7 @@ import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import Generating from "./Generating";
-import Notification from "./Notification";
-import CompanyLogos from "./CompanyLogos";
-import Dice_Quest_Recording from "../assets/Dice_Quest_Recording.mp4";
+import Website_Recording from "../assets/WEBSITE_VIDEO_HQ.mp4";
 const Hero = () => {
   const parallaxRef = useRef(null);
 
@@ -49,7 +46,7 @@ const Hero = () => {
                 {/* Video Section */}
                   <div className="relative z-[5]">
                     <video autoPlay loop muted playsInline className="w-full h-full object-cover">
-                      <source src={Dice_Quest_Recording} type="video/mp4" />
+                      <source src={Website_Recording} type="video/mp4" />
                     </video>
                   </div>
                   {/* <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" /> */}

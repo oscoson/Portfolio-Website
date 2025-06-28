@@ -78,7 +78,7 @@ import twitter from "./socials/twitter.svg";
 import DRDC from "./DRDC.png";
 import QGDC from "./qgdc_logo.png";
 import MetaQuestGaming from "./MetaQuest_Demo.jpg";
-import WorkLife  from "./defcon.jpg"
+import WorkLife  from "./defcon.jpg";
 
 export {
   brainwave,
