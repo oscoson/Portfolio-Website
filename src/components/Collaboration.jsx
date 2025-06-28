@@ -10,7 +10,7 @@ const Collaboration = () => {
     {
       title: "Languages",
       items: [
-        { name: "C#", icon: "src/assets/icons/c-sharp.svg" },
+        { name: "C#", icon: "./icons/c-sharp.svg" },
         { name: "C++", icon: "src/assets/icons/icons8-c++.svg" },
         { name: "C", icon: "src/assets/icons/icons8-c-programming.svg" },
         { name: "Python", icon: "src/assets/icons/icons8-python.svg" },
