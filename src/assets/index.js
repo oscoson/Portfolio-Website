@@ -80,7 +80,44 @@ import QGDC from "./qgdc_logo.png";
 import MetaQuestGaming from "./MetaQuest_Demo.jpg";
 import WorkLife  from "./defcon.jpg";
 
-import csharp from "./c-sharp.svg";
+import csharp from "./icons/c-sharp.svg";
+import cplus from "./icons/icons8-c++.svg";
+import c from "./icons/icons8-c-programming.svg";
+import python from "./icons/icons8-python.svg";
+import javascript from "./icons/icons8-javascript.svg";
+import java from "./icons/icons8-java.svg";
+import html from "./icons/icons8-html.svg";
+import css from "./icons/icons8-css.svg";
+import yaml from "./icons/Official_YAML_Logo.svg";
+
+import unity from "./icons/icons8-unity.svg";
+import unreal from "./icons/icons8-unreal-engine.svg";
+import pandas from "./icons/icons8-pandas.svg";
+import cypress from "./icons/cypress-1.svg";
+import jest from "./icons/Jest.svg";
+import nodejs from "./icons/Node.js.svg";
+import nextjs from "./icons/Next.js.svg";
+import tailwind from "./icons/Tailwind CSS.svg";
+import bootstrap from "./icons/icons8-bootstrap.svg";
+
+import git from "./icons/Git.svg";
+import githubIcon from "./icons/GitHub.svg";
+import vscode from "./icons/Visual Studio Code (VS Code).svg";
+import visualStudio from "./icons/Visual Studio.svg";
+import eclipse from "./icons/Eclipse IDE.svg";
+import intellij from "./icons/IntelliJ IDEA.svg";
+import jupyter from "./icons/Jupyter.svg";
+import jira from "./icons/Jira.svg";
+import confluence from "./icons/Confluence.svg";
+import figmaIcon from "./icons/Figma.svg";
+
+import windows from "./icons/Windows 11.svg";
+import macos from "./icons/MacOS_logo.svg";
+import linux from "./icons/Linux.svg";
+import metahorizon from "./icons/meta-color.svg";
+import vmware from "./icons/Vmware_workstation_16_icon.svg";
+import openai from "./icons/icons8-chatgpt.svg";
+import llama from "./icons/meta-text.svg";
 
 export {
   brainwave,
@@ -155,5 +192,39 @@ export {
   QGDC,
   MetaQuestGaming,
   WorkLife,
-  csharp
+  csharp,
+  cplus,
+  c,
+  python,
+  javascript,
+  java,
+  html,
+  css,
+  yaml,
+  unity,
+  unreal,
+  pandas,
+  cypress,
+  jest,
+  nodejs,
+  nextjs,
+  tailwind,
+  bootstrap,
+  git,
+  githubIcon,
+  vscode,
+  visualStudio,
+  eclipse,
+  intellij,
+  jupyter,
+  jira,
+  confluence,
+  figmaIcon,
+  windows,
+  macos,
+  linux,
+  metahorizon,
+  vmware,
+  openai,
+  llama,
 };
