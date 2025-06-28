@@ -69,11 +69,11 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import gradImage from "./Grad.jpg";
 
-import discordBlack from "./socials/discord.svg";
+import linkedin from "./icons8-linkedin.svg";
 import facebook from "./socials/facebook.svg";
-import instagram from "./socials/instagram.svg";
+import itch from "./icons8-itch-io.svg";
 import telegram from "./socials/telegram.svg";
-import twitter from "./socials/twitter.svg";
+import github from "./icons8-github.svg";
 
 import DRDC from "./DRDC.png";
 import QGDC from "./qgdc_logo.png";
@@ -144,11 +144,11 @@ export {
   benefitIcon3,
   benefitIcon4,
   gradImage,
-  discordBlack,
+  linkedin,
   facebook,
-  instagram,
+  itch,
   telegram,
-  twitter,
+  github,
   DRDC,
   QGDC,
   MetaQuestGaming,
